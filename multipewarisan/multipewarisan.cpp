@@ -41,7 +41,13 @@ public :
 	~pelajar() {
 		cout << "pelajar dihapus\n" << endl;
 	}
-	string perkenalan;
-
+	string perkenalan() {
+		return "Hallo, nama saya" + nama + "dengan jenis kelamin" + jenisKelamin + "dari sekolah" + Sekolah + "\n\n";
+	}	
 };
-	
+
+int main() {
+	pelajar andi("Andi Laksono", "Laki-laki", "belajarcpp");
+	cout << andi.perkenalan();
+	return 0;
+}
