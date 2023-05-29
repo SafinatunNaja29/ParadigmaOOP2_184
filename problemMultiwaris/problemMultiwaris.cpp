@@ -36,6 +36,6 @@ public:
 		pekerja(pUmur),
 		pelajar(pUmur)
 	{
-		cout << "orang dibuat dengan umur " <<
+		cout << "budi dibuat\n" << endl;
 	}
 };
