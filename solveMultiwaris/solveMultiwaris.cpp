@@ -38,3 +38,8 @@ public:
 		cout << "budi dibuat\n" << endl;
 	}
 };
+
+int main() {
+	budi a(22);
+	return 0;
+}
